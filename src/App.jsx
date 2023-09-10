@@ -1,6 +1,6 @@
 import React from 'react'
 import {Navbar, Footer, Team} from './components';
-import { Home , Category, MyCategories,Orders, Messages, Message, Add, Register, Login} from './pages';
+import { Home,Teams } from './pages';
 
 import {
   createBrowserRouter,
@@ -31,7 +31,7 @@ function App() {
         },
         {
           path: "/team",
-          element: <Team />,
+          element: <Teams />,
         },
        
         
